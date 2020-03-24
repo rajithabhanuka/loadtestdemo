@@ -1,0 +1,18 @@
+server:
+  port: ${appPort:8090}
+
+info:
+  app:
+    name: @project.artifactId@
+  build:
+    version: @project.version@
+
+httpconnpool:
+  maxTotal: 20
+  defaultMaxPerRoute: 20
+  maxPerRoutes:
+    -
+      scheme: http
+      host: localhost
+      port: 8090
+      maxPerRoute: 20
