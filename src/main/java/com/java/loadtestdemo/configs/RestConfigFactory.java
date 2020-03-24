@@ -1,4 +1,4 @@
-package com.java.loadtestdemo;
+package com.java.loadtestdemo.configs;
 
 import com.java.loadtestdemo.configs.HttpHostsConfiguration;
 import org.apache.commons.collections4.CollectionUtils;
