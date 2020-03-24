@@ -1,6 +1,5 @@
 package com.java.loadtestdemo.configs;
 
-import com.java.loadtestdemo.configs.HttpHostsConfiguration;
 import org.apache.commons.collections4.CollectionUtils;
 import org.apache.http.HttpHost;
 import org.apache.http.client.HttpClient;
